@@ -1,17 +1,18 @@
 import { AttendanceRecord, LeaveRequest, User } from '../types';
 
 export const students = [
-  { id: '1', name: 'John Smith', email: 'john@example.com', role: 'student', studentId: 'STU001', course: 'Computer Science' },
-  { id: '2', name: 'Emma Wilson', email: 'emma@example.com', role: 'student', studentId: 'STU002', course: 'Data Science' },
-  { id: '3', name: 'Michael Brown', email: 'michael@example.com', role: 'student', studentId: 'STU003', course: 'Computer Science' },
-  { id: '4', name: 'Sarah Davis', email: 'sarah@example.com', role: 'student', studentId: 'STU004', course: 'Software Engineering' },
-  { id: '5', name: 'James Johnson', email: 'james@example.com', role: 'student', studentId: 'STU005', course: 'Data Science' },
+  { id: '1', name: 'Barani', email: 'barani@example.com', role: 'student', studentId: 'STU001', course: 'Computer Science' },
+  { id: '2', name: 'Deepak', email: 'deepak@example.com', role: 'student', studentId: 'STU002', course: 'Data Science' },
+  { id: '3', name: 'Arul Mani', email: 'arulmani@example.com', role: 'student', studentId: 'STU003', course: 'Computer Science' },
+  { id: '4', name: 'Sai', email: 'sai@example.com', role: 'student', studentId: 'STU004', course: 'Software Engineering' },
 ] as const;
 
 export const teachers = [
-  { id: '101', name: 'Dr. Robert Anderson', email: 'robert@example.com', role: 'teacher', department: 'Computer Science', position: 'Professor' },
-  { id: '102', name: 'Prof. Lisa Chen', email: 'lisa@example.com', role: 'teacher', department: 'Data Science', position: 'Associate Professor' },
+  { id: '101', name: 'Harikanth', email: 'harikanth@example.com', role: 'teacher', department: 'Computer Science', position: 'Professor' },
+  { id: '102', name: 'Gokul', email: 'gokul@example.com', role: 'teacher', department: 'Data Science', position: 'Associate Professor' },
+  { id: '103', name: 'Harish', email: 'harish@example.com', role: 'teacher', department: 'Software Engineering', position: 'Lecturer' },
 ] as const;
+
 
 export const attendanceData = {
   '2024-02': students.map(student => ({
